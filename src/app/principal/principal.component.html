@@ -1,0 +1,9 @@
+<div class="fixed-bottom text-end">
+    <button *ngIf="rep == false" (click)="click()" class="unstyle"><i class='bx bx-play bx-lg' style="color: #1C4C96; background-color: rgb(197, 217, 229, 0.3);margin-right: 20px; padding-left: 5px; margin-bottom: 20px; border-radius: 50px;"></i></button>
+    <button *ngIf="rep == true" (click)="click()" class="unstyle"><i class='bx bx-pause bx-lg' style="color: #1C4C96; background-color: rgb(197, 217, 229, 0.3);margin-right: 20px; padding-left: 5px; margin-bottom: 20px; border-radius: 50px;"></i></button>
+</div>
+<app-inicio></app-inicio>
+<div class="pres">
+    <app-presentacion ></app-presentacion>
+</div>
+<app-ceremonia></app-ceremonia>

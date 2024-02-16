@@ -1,0 +1,22 @@
+.texto{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    text-align:left;
+}
+
+.tit{
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    color: #1C4C96;
+    font-size: 50px;
+}
+.tex{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: black;
+}
+.tex1{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin-left: 7px;
+}
