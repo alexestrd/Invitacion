@@ -1,18 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-    background-image: url(assets/Fondo/Fondo1.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #eff8fa;
+    background-color: #FFFFFF;
 }
+body, html {
+    margin: 0;
+    padding: 0;
+  }
 
 @media only screen and (max-width: 780px) {
     body {
         background: none;
-        background-image: url(assets/Fondo/Fondo4.png);
         background-size: cover;
         background-repeat: no-repeat;
-        background-color: #eff8fa;
+        background-color: #FFFFFF;
     }
 }
